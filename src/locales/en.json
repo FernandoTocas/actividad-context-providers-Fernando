@@ -1,0 +1,11 @@
+{
+  "title": "Student management",
+  "subtitle": "Context demo: theme, language and user",
+  "loginTitle": "Log in",
+  "loginDescription": "Enter a sample name to simulate login.",
+  "namePlaceholder": "Your name...",
+  "loginButton": "Sign in",
+  "homeWelcome": "Welcome,",
+  "homeDescription": "This is the home panel. From here you can access students sections.",
+  "logoutButton": "Log out"
+}

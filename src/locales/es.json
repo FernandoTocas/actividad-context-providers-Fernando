@@ -1,0 +1,11 @@
+{
+  "title": "Gestión de alumnos",
+  "subtitle": "Demo de Context: tema, idioma y usuario",
+  "loginTitle": "Iniciar sesión",
+  "loginDescription": "Introduce un nombre de prueba para simular el login.",
+  "namePlaceholder": "Tu nombre...",
+  "loginButton": "Entrar",
+  "homeWelcome": "Bienvenido,",
+  "homeDescription": "Este es el panel de inicio. Desde aquí puedes acceder a las secciones de alumnos.",
+  "logoutButton": "Cerrar sesión"
+}
