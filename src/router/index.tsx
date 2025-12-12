@@ -1,15 +1,14 @@
 import {createBrowserRouter, Navigate, Outlet,} from "react-router-dom";
 
-import Layout from "@/layout/Layout.tsx";
 import LoginPage from "@/pages/LoginPage.tsx";
 import HomePage from "@/pages/HomePage.tsx";
+import Layout from "@/layout/Layout";
 
-// Ruta protegida: solo deja pasar si hay usuario
+
 function RequireAuth() {
-    // TODO
     //const {user} = useAuth();
     /* --------------------------- */
-    const user = {name:"John Doe"};
+    const user = {name:"Fernando Tocas"};
 
     /* --------------------------- */
     if (!user) {
@@ -19,18 +18,18 @@ function RequireAuth() {
 }
 
 // Wrapper para usar Layout + Outlet
-function LayoutWrapper() {
+/*function LayoutWrapper() {
     return (
         <Layout>
             <Outlet/>
         </Layout>
     );
-}
+}*/
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <LayoutWrapper/>,
+        element: <Layout/>,
         children: [
             {
                 path: "/login",
