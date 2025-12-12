@@ -1,5 +1,4 @@
- //Pasado por IVAN..
- 
+ //Pasado por IVAN.. 
  import {createContext, useContext, useEffect, useState} from "react";
 
 const THEME_KEY: string = "app-theme";
@@ -18,7 +17,6 @@ type ThemeProviderProps = {
 }
 
 export default function ThemeProvider({children}:ThemeProviderProps){
-
 
     const currentTheme = window.localStorage.getItem(THEME_KEY);
     const storedTheme  = currentTheme==='dark' ? 'dark' : 'light';
