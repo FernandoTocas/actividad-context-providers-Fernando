@@ -1,6 +1,8 @@
+/*import { useLenguaje } from "@/context/LanguageContext";
+
 export default function LanguageSwitcher() {
     // TODO
-    const {language, setLanguage} = useLanguage();
+    const {languaje, setLanguaje}: {languaje: "es" | "en", setLanguaje: (lang: "es" | "en") => void} = useLenguaje();
     
     /* --------------------------- */
     // Eliminar
@@ -8,30 +10,30 @@ export default function LanguageSwitcher() {
     const setLanguage = (lang: string) => {
         console.log(`Cambiando el idioma: ${lang}`);
     }*/
-
+/*
     return (
-        <div
-            className="flex text-xs border rounded-md overflow-hidden bg-white dark:bg-slate-800 dark:border-slate-600">
+        <div>
+            className="flex text-xs border rounded-md overflow-hidden bg-white dark:bg-slate-800 dark:border-slate-600"
             <button
-                onClick={() => setLanguage("es")}
+                onClick={() => setLanguaje("es")}
                 className={`px-2 py-1 ${
-                    language === "es"
+                    languaje === "es"
                         ? "bg-slate-900 text-white"
                         : "text-slate-900 bg-white dark:bg-slate-800 dark:text-slate-100"
                 }`}
             >
-                ES
+                ES == ESPAÑOL
             </button>
             <button
-                onClick={() => setLanguage("en")}
+                onClick={() => setLanguaje("en")}
                 className={`px-2 py-1 ${
-                    language === "en"
+                    languaje === "en"
                         ? "bg-slate-900 text-white"
                         : "text-slate-900 bg-white dark:bg-slate-800 dark:text-slate-100"
                 }`}
             >
-                EN
+                EN == ENGLISH
             </button>
         </div>
-    );
-}
+    ); 
+  }*/

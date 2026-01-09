@@ -1,5 +1,5 @@
 import ThemeToggle from "./ThemeToggle";
-import LanguageSwitcher from "./LanguageSwitcher";
+//import LanguageSwitcher from "./LanguageSwitcher";
 import es from "../locales/es.json";
 import en from "../locales/en.json";
 const translations = { es, en } as const;
@@ -27,7 +27,7 @@ export default function Header() {
                 </div>
 
                 <div className="flex items-center gap-3">
-                    <LanguageSwitcher/>
+                    {/*<LanguageSwitcher/>*/}
                     <ThemeToggle/>
                 </div>
             </div>

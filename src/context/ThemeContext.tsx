@@ -1,5 +1,5 @@
- //Pasado por IVAN.. 
- import {createContext, useContext, useEffect, useState} from "react";
+//Pasado por IVAN.. 
+import {createContext, useContext, useEffect, useState} from "react";
 
 const THEME_KEY: string = "app-theme";
 

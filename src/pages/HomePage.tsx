@@ -8,6 +8,7 @@ export default function HomePage() {
     const logout = ()=>{
         console.log(`Eliminando autenticación`);
     }
+    
     const user = {name:"John Doe"};
 
     // Eliminar
